@@ -1,0 +1,40 @@
+/* Basic CSS reset and styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with some basic styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Center the video element on the page */
+#video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Adjust the height as needed */
+}
+
+/* Responsive design for the video container */
+@media screen and (max-width: 768px) {
+    #video-container {
+        height: auto;
+    }
+}
+
+/* Make the video element responsive */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
