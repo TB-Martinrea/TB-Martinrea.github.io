@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TB Promo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        #video-container {
+            position: relative;
+        }
+        #pop-out-cover {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: transparent;
+            width: 50px;
+            height: 55px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Place your company logo here -->
+        <img src="1941293.png" alt="Company Logo" width="80" 
+        height="110">
+    </header>
+
+    <div id="video-container">
+        <!-- Replace 'your-video.mp4' with the path to your locally stored video -->
+        <iframe id="video" src="https://drive.google.com/file/d/1O_9EiOTcQOHhghpIqDXi6X0zkeAKpLWc/preview" width="100%" height="100%" allow="autoplay"></iframe>
+        <div id="pop-out-cover"></div>   
+    </div>
+</body>
+</html>
