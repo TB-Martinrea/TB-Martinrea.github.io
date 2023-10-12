@@ -1,45 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TB Promo</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>
-        #pop-out-cover {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            background-color: transparent;
-            width: 50px;
-            height: 55px;
-            z-index: 2;
-        }
-    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+iframe {
+  width: 100%;
+  height: auto;
+}
+h1 {
+	text-align: center;
+}
+</style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to <img src="1941293.png" alt="Company Logo" width="12%" 
-        height="12%"> Tillsonburg</h1>
-    </header>
-
-     <div id="video-container">
-        <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1O_9EiOTcQOHhghpIqDXi6X0zkeAKpLWc/preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div id="pop-out-cover"></div>  
-    </div>
-
-    <script>
-        var video = document.querySelector('iframe');
-
-        video.addEventListener('webkitfullscreenchange', function (e) {
-            if (document.webkitFullscreenElement) {
-                // Video is in fullscreen mode
-                // Add any necessary styles or adjustments here
-            } else {
-                // Video exited fullscreen mode
-                // Remove any styles or adjustments here
-            }
-        });
-    </script>
+<div class="header">
+<h1><img src="martinrea_logo.png" style="float:center;width:82px;height:82px;"></h1>
+</div>
+<div >
+<iframe style="height: 400px;" controls src="https://drive.google.com/file/d/1CZAmfmyBEjEYMz6CQiM4u9RG6_YNY4GF/preview" allow="autoplay" ></iframe> 
+</div>
 </body>
 </html>
