@@ -8,8 +8,8 @@
     <style>
         #pop-out-cover {
             position: absolute;
-            top: 5px;
-            right: 5px;
+            top: 0px;
+            right: 0px;
             background-color: transparent;
             width: 50px;
             height: 55px;
@@ -28,18 +28,17 @@
         <div id="pop-out-cover"></div>  
     </div>
 
-    <script>
+<!--     <script>
         var video = document.querySelector('iframe');
+        var popOutCover = document.getElementById('pop-out-cover');
 
         video.addEventListener('webkitfullscreenchange', function (e) {
             if (document.webkitFullscreenElement) {
-                // Video is in fullscreen mode
-                // Add any necessary styles or adjustments here
+                
             } else {
-                // Video exited fullscreen mode
-                // Remove any styles or adjustments here
+            
             }
         });
-    </script>
+    </script> -->
 </body>
 </html>
